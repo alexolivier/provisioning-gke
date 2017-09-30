@@ -10,4 +10,4 @@ dashboard:
   domain: traefik.gcp.alxolvr.com
   auth:
     basic:
-      ao: 'SET HTPASSWD HERE'
+      ao: 'HERE'
