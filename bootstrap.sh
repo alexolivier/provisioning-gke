@@ -1,7 +1,8 @@
 gcloud container clusters create aok8s \
   --enable-autoupgrade \
   --enable-cloud-monitoring \
-  --enable-cloud-logging \
+  --no-enable-cloud-logging \
+  --enable-cloud-endpoints \
   --machine-type=n1-standard-1 \
   --num-nodes=2 \
   --scopes bigquery,storage-rw,monitoring,sql,sql-admin,default \
